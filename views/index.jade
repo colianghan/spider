@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title #{title}
+        <style>.db{display:block;}</style>
+    body
+        - files.forEach((file)=>{
+            a(class="db",href=`/detail/${file.name}`)= file.name
+        - })

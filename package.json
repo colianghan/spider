@@ -1,0 +1,23 @@
+{
+  "name": "spider",
+  "version": "0.0.1",
+  "description": "大主宰爬虫",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "less-middleware": "^2.2.1",
+    "log4js": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "hanguoliang (hanguoliang1992@gmail.com)",
+  "license": "ISC"
+}

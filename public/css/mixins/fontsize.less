@@ -1,0 +1,21 @@
+.fontsize(@size) {
+    font-size: @size / 2;
+    [data-dpr="2"] & {
+        font-size: @size;
+    }
+    [data-dpr="3"] & {
+        font-size: @size / 2 * 3;
+    }
+}
+
+.lineheight(@size) {
+
+  line-height: @size/2;
+    
+    [data-dpr="2"] & {
+         line-height:@size;
+    }
+    [data-dpr="3"] & {
+         line-height :@size/2*3;
+    }
+}
